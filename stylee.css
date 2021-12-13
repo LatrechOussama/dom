@@ -24,7 +24,7 @@ body {
   border: 1px solid black;
 
   backdrop-filter: blur(30px);
-  background: rgba(0, 0, 0, 0.01);
+  background: rgba(0, 0, 0, 0.01) ;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   border-radius: 10px;
 }
@@ -44,5 +44,12 @@ td {
 .btn-cont {
   display: flex;
   justify-content: space-around;
+  width: 100px;
+  height: 40px;
 }
-
+.toggle {
+  color: red;
+}
+p {
+  margin-top: 10%;
+}
